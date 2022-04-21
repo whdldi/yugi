@@ -521,6 +521,12 @@ section[id*="main-section"] .owl-theme .owl-nav [class*="owl-"]:hover { backgrou
 @media (max-width: 767px) { .popUp-sec .modal-close a { font-size: .8rem; } }
 .popUp-sec .modal-close [class^=xi-] { margin-left: .25rem; font-size: 1.2rem; }
 
+/* 0413 회원가입 팝업보이게 수정<아래처럼 하면 표출은 되는데 x버튼이 안됨 */
+/* #pop-member {display: block;} */
+
+
+
+
 #pop-member { background-color: rgba(0, 0, 0, 0.4); }
 @media (max-width: 767px) { #pop-member .modal-dialog-centered { min-height: calc(100% - 4rem); }
   #pop-member .modal-dialog-centered::before { height: calc(100vh - 4rem); } }
@@ -625,7 +631,7 @@ section[id*="main-section"] .owl-theme .owl-nav [class*="owl-"]:hover { backgrou
 @media (min-width: 992px) { .warningIE-bg p { font-size: 1.65rem; } }
 .warningIE-bg p img { width: 28px; height: 28px; }
 
-#gameActive-cntn-popup .modal-dialog { margin: 1.75rem 1rem 1.75rem auto; }
+/* #gameActive-cntn-popup .modal-dialog { margin: 1.75rem 1rem 1.75rem auto; } */
 #gameActive-cntn-popup .modal-content { background-color: transparent; }
 #gameActive-cntn-popup .modal-header { padding-top: 0.5rem; padding-bottom: 0.5rem; background-color: #666; }
 #gameActive-cntn-popup .modal-header h5 { font-weight: 500; }
@@ -653,14 +659,14 @@ section[id*="main-section"] .owl-theme .owl-nav [class*="owl-"]:hover { backgrou
 @media (max-width: 767px) { #event-72time-popup .modal-dialog-centered { min-height: calc(100% - 7rem); }
   #event-72time-popup .modal-dialog-centered::before { height: calc(100vh - 7rem); } }
 
-/* @media (min-width: 992px) { #event-popup .modal-dialog { margin: 1.75rem 1rem 1.75rem auto; } } */
+@media (min-width: 992px) { #event-popup .modal-dialog { margin: 1.75rem 1rem 1.75rem auto; } }
 #event-popup .modal-content { background-color: transparent; }
 #event-popup .modal-header { padding-top: 0.5rem; padding-bottom: 0.5rem; background: #262626; border-bottom: none; }
 #event-popup .modal-header h5 { font-weight: 500; }
 @media (max-width: 991px) { #event-popup .modal-header h5 { font-size: .9rem; } }
 #event-popup .modal-header h5, #event-popup .modal-header .close { color: #fff; }
 #event-popup .modal-body { background-color: #fff; padding: 0; }
-@media (min-width: 992px) { #event-popup .modal-lg { max-width: 100%; } }
+@media (min-width: 992px) { #event-popup .modal-lg { max-width: 600px; } }
 #event-popup .modal-footer { background: #262626; border-top: none; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 @media (max-width: 991px) { #event-popup .modal-footer { padding-top: 0.5rem; padding-bottom: 0.5rem; } }
 #event-popup .modal-footer a { color: #fff; font-weight: 500; font-size: .9rem; }
